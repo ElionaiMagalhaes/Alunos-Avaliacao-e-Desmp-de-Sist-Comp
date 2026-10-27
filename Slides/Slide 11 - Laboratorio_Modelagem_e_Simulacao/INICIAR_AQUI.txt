@@ -1,0 +1,36 @@
+LABORATORIO - MODELAGEM MATEMATICA E SIMULACAO DE EVENTOS DISCRETOS
+Professor Msc Elionai Magalhaes
+Disciplina: Avaliacao e Desempenho de Sistemas Computacionais
+
+ESCOLHA UMA DAS OPCOES ABAIXO.
+
+OPCAO 1: GOOGLE COLAB (SEM INSTALAR PYTHON)
+1. Abra https://colab.research.google.com/
+2. Clique em Arquivo > Fazer upload de notebook.
+3. Escolha Laboratorio_Fila_MM1_Colab.ipynb.
+4. Execute cada celula na ordem apresentada.
+5. Compare o cenario-base com o de maior demanda.
+
+OPCAO 2: WINDOWS / PYTHON (SEM BIBLIOTECAS EXTRAS)
+1. Extraia todos os arquivos deste ZIP para uma pasta.
+2. Abra a pasta no Explorador, digite cmd na barra de endereco e pressione Enter.
+3. Execute: py laboratorio_fila_mm1.py
+4. Execute: py laboratorio_fila_mm1.py --comparar
+5. Execute: py laboratorio_fila_mm1.py --clientes 120 --mostrar-eventos 12 --csv meus_eventos.csv
+6. Se py nao funcionar, substitua py por python.
+
+O QUE ANALISAR
+- Utilizacao do servidor (rho): percentual do tempo ocupado.
+- Espera media na fila (Wq): tempo antes de iniciar o atendimento.
+- Permanencia media (W): espera mais tempo de atendimento.
+- Tamanho medio da fila (Lq): quantidade media aguardando.
+
+ARQUIVOS
+- README_LABORATORIO.md: roteiro completo e exercicio.
+- laboratorio_fila_mm1.py: programa em Python.
+- Laboratorio_Fila_MM1_Colab.ipynb: notebook para Google Colab.
+- exemplo_eventos.csv: chegadas e saidas de 120 clientes.
+- resultados_comparacao.csv: resultados de dois cenarios.
+
+IMPORTANTE: Os CSVs ja vem preenchidos e podem ser abertos no Excel.
+Os resultados sao simulacoes didaticas e dependem da semente e da amostra.
